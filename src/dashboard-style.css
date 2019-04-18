@@ -1,0 +1,8 @@
+.container {
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: 
+      "header header  header"
+      "nav    main    aside"
+      "nav    main    banner"
+      "footer footer  footer"
+   }
