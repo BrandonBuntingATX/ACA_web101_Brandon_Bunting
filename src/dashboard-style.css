@@ -1,0 +1,33 @@
+.container {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-column-gap: 1em;
+	grid-auto-rows: 400px;
+}
+
+.container > div {
+	background-color: blueviolet;
+	padding-top: 100px;
+}
+
+body {
+	background-color: coral;
+}
+
+header {
+	display: grid;
+	border: 3px solid #ffffff;
+	font-weight: 700;
+	background-color: aquamarine;
+	padding-top: 40px;
+	box-shadow: 1em;
+}
+
+.Welcome {
+	font-color: rgb(122, 19, 19);
+}
+
+h1 {
+	text-align: center;
+	font-size: 30px;
+}
