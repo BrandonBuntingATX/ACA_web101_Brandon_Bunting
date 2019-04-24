@@ -8,19 +8,20 @@
 }
 
 .container > div {
-	background-color: #839e9d;
+	background-color: #5277bf;
 }
 
 body {
 	/*-color: coral; */
-	background-image: url("images/Dashboardbg.jpg");
+	background-image: url("images/bluewind.jpg");
+	background-size: 100%;
 }
 
 header {
 	display: grid;
-	border: 3px solid #ffffff;
+	border: 5px solid #5277bf;
 	font-weight: 200;
-	background-color: rgb(27, 112, 84);
+	background-color: #081b40;
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
@@ -28,15 +29,18 @@ header {
 .Welcome {
 	color: #73d9d4;
 }
-.container .datetime h1,
-h2 {
+
+.datetime {
+	border: 3px solid #020202;
+}
+
+.Date {
 	font-size: 50px;
 }
 
-.datetime {
-	line-height: -1.5em;
+.Time {
+	font-size: 45px;
 }
-
 
 h1,
 h2,
@@ -50,12 +54,12 @@ p {
 }
 .Date > p {
 	font-size: 400px;
-	}
-	
+}
 
 .caltop {
 	background-color: white;
 	height: 1em;
+	border: 3px solid #020202;
 }
 
 .nestedcalculator {
@@ -66,14 +70,21 @@ p {
 	font-size: 35px;
 }
 
+.checklist {
+	background-color: #5277bf;
+	padding-top: 35px;
+	padding-bottom: 65px;
+	padding-left: 20px;
+	border: 3px solid #020202;
+}
+
 footer {
 	display: grid;
 	grid-template-columns: 100%;
 	text-align: center;
+	background-color: white;
 }
 
 /* found the to do list code online, and played around with it replace with your own once you get better with java script to make it work. */
 
-
-
-/
+.
