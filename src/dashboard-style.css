@@ -26,8 +26,22 @@ header {
 }
 
 .Welcome {
+<<<<<<< HEAD
 	color: rgb(122, 19, 19);
 }
+=======
+	color: #73d9d4;
+}
+.container .datetime h1,
+h2 {
+	font-size: 50px;
+}
+
+.datetime {
+	line-height: -1.5em;
+}
+
+>>>>>>> dashboard
 
 h1,
 h2,
@@ -39,6 +53,13 @@ p {
 	font-family: "Righteous", cursive;
 	text-align: center;
 }
+<<<<<<< HEAD
+=======
+.Date > p {
+	font-size: 400px;
+	}
+	
+>>>>>>> dashboard
 
 .caltop {
 	background-color: white;
@@ -61,6 +82,7 @@ footer {
 
 /* found the to do list code online, and played around with it replace with your own once you get better with java script to make it work. */
 
+<<<<<<< HEAD
 /* Remove margins and padding from the list */
 ul {
 	margin: 0;
@@ -162,3 +184,8 @@ input {
 .addBtn:hover {
 	background-color: #bbb;
 }
+=======
+
+
+/
+>>>>>>> dashboard
