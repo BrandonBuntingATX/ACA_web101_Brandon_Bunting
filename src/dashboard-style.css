@@ -1,8 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Righteous");
+
 .container {
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-areas: 
-      "header header  header"
-      "nav    main    aside"
-      "nav    main    banner"
-      "footer footer  footer"
-   }
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-column-gap: 1em;
+	grid-auto-rows: 400px;
+}
+
+.container > div {
+	background-color: #839e9d;
+}
+
+body {
+	/*-color: coral; */
+	background-image: url("Dashboardbg.jpg");
+}
+
+header {
+	display: grid;
+	border: 3px solid #ffffff;
+	font-weight: 200;
+	background-color: rgb(27, 112, 84);
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.Welcome {
+	color: #73d9d4;
+}
+.container .datetime h1,
+h2 {
+	font-size: 50px;
+}
+
+.datetime {
+	line-height: -1.5em;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-family: "Righteous", cursive;
+	text-align: center;
+}
+.Date > p {
+	font-size: 400px;
+	}
+	
+
+.caltop {
+	background-color: white;
+	height: 1em;
+}
+
+.nestedcalculator {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+	border: 3px solid #020202;
+	font-size: 35px;
+}
+
+footer {
+	display: grid;
+	grid-template-columns: 100%;
+	text-align: center;
+}
+
+/* found the to do list code online, and played around with it replace with your own once you get better with java script to make it work. */
+
+
+
+/
