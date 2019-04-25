@@ -52,9 +52,6 @@ p {
 	font-family: "Righteous", cursive;
 	text-align: center;
 }
-.Date > p {
-	font-size: 400px;
-}
 
 .caltop {
 	background-color: white;
@@ -85,6 +82,69 @@ footer {
 	background-color: white;
 }
 
-/* found the to do list code online, and played around with it replace with your own once you get better with java script to make it work. */
+/* Mobile Styling */
 
-.
+@media screen and (max-width: 375px) {
+	.container {
+		display: grid;
+		grid-template-columns: 100%;
+		grid-column-gap: 1em;
+		grid-auto-rows: 100px;
+	}
+
+	body {
+		/*-color: coral; */
+		background-image: url("images/bluewind.jpg");
+		background-size: inherit;
+	}
+
+	.nestedcalculator {
+		display: none;
+	}
+
+	.Date {
+		font-size: 20px;
+	}
+
+	.Time {
+		font-size: 15px;
+	}
+
+	footer {
+	}
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+
+	.container {
+		display: grid;
+		grid-template-columns: 100%;
+		grid-column-gap: 1em;
+		grid-auto-rows: 175px;
+	}
+
+	body {
+		/*-color: coral; */
+		background-image: url("images/bluewind.jpg");
+		background-size: inherit;
+	}
+
+	
+
+	.Date {
+		font-size: 30px;
+	}
+
+	.Time {
+		font-size: 25px;
+	}
+
+	footer {
+	}
+}
+
+
+}
