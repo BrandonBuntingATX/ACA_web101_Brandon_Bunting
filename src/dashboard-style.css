@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css?family=Righteous");
+
+.container {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-column-gap: 1em;
+	grid-auto-rows: 400px;
+}
+
+.container > div {
+	background-color: #5277bf;
+}
+
+body {
+	/*-color: coral; */
+	background-image: url("images/bluewind.jpg");
+	background-size: 100%;
+}
+
+header {
+	display: grid;
+	border: 5px solid #5277bf;
+	font-weight: 200;
+	background-color: #081b40;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.Welcome {
+	color: #73d9d4;
+}
+
+.datetime {
+	border: 3px solid #020202;
+}
+
+.Date {
+	font-size: 50px;
+}
+
+.Time {
+	font-size: 45px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-family: "Righteous", cursive;
+	text-align: center;
+}
+
+.caltop {
+	background-color: white;
+	height: 1em;
+	border: 3px solid #020202;
+}
+
+.nestedcalculator {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+	border: 3px solid #020202;
+	font-size: 35px;
+}
+
+.checklist {
+	background-color: #5277bf;
+	padding-top: 35px;
+	padding-bottom: 65px;
+	padding-left: 20px;
+	border: 3px solid #020202;
+}
+
+footer {
+	display: grid;
+	grid-template-columns: 100%;
+	text-align: center;
+	background-color: white;
+}
+
+/* Mobile Styling */
+
+@media screen and (max-width: 375px) {
+	.container {
+		display: grid;
+		grid-template-columns: 100%;
+		grid-column-gap: 1em;
+		grid-auto-rows: 100px;
+	}
+
+	body {
+		/*-color: coral; */
+		background-image: url("images/bluewind.jpg");
+		background-size: inherit;
+	}
+
+	.nestedcalculator {
+		display: none;
+	}
+
+	.Date {
+		font-size: 20px;
+	}
+
+	.Time {
+		font-size: 15px;
+	}
+
+	footer {
+	}
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+
+	.container {
+		display: grid;
+		grid-template-columns: 100%;
+		grid-column-gap: 1em;
+		grid-auto-rows: 175px;
+	}
+
+	body {
+		/*-color: coral; */
+		background-image: url("images/bluewind.jpg");
+		background-size: inherit;
+	}
+
+	
+
+	.Date {
+		font-size: 30px;
+	}
+
+	.Time {
+		font-size: 25px;
+	}
+
+	footer {
+	}
+}
+
+
+}
