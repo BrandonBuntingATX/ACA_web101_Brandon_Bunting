@@ -1,0 +1,79 @@
+body {
+	margin: 0 auto;
+	width: 850px;
+}
+
+header {
+	position: relative;
+	text-align: center;
+	margin-bottom: 20px;
+	color: white;
+	height: 450px;
+
+	background-image: url(/src/nasa/images/galaxy.jpg);
+	background-position: center;
+	color: white;
+}
+
+.nasatext {
+	font-family: "Anton", sans-serif;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 60px;
+}
+
+section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+article {
+	width: 270px;
+	height: 324px;
+	background-color: #ccc;
+}
+
+.articleblock {
+	padding-top: 20px;
+	margin-left: 20px;
+}
+
+strong {
+	font-size: 20px;
+}
+
+.social p {
+	font-size: 16px;
+	line-height: 50%;
+}
+
+.contactus {
+	display: flex;
+	flex-direction: column;
+	font-size: 16px;
+	line-height: 0.2em;
+}
+
+.contactinput {
+	width: 200px;
+	height: 40px;
+}
+
+.contactinputname {
+	width: 200px;
+	height: 20px;
+}
+
+.contactbutton {
+	width: 60px;
+	height: 25px;
+	color: white;
+	background-color: rgb(90, 84, 84);
+	margin-top: 10px;
+	font-size: 15px;
+}
