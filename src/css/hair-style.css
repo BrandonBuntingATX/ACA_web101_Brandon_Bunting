@@ -1,0 +1,28 @@
+header {
+	height: 150px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.logo {
+}
+
+.HeaderLogo {
+	border: 0;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: auto;
+	width: 50%;
+	background-color: antiquewhite;
+}
+
+.container {
+	background-color: black;
+	height: 20px;
+	width: auto;
+	height: 1000px;
+}
